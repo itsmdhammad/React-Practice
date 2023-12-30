@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Login from "./components/Login"
-import Signup from "./components/Signup"
+import Login from "../components/auth/Login"
+import Signup from "../components/auth/Signup"
 
-function App() {
+function AuthLayout() {
 
   const [state, setState] = useState(false);
 
@@ -18,4 +18,4 @@ function App() {
   )
 }
 
-export default App
+export default AuthLayout
